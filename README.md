@@ -22,26 +22,26 @@ SIR mathematical model for infectious diseases optimized for COVID-19 using Span
 
 | Date           | Infected  | Cases     |
 |:--------------:|:---------:|:---------:|
-| **2020-04-05** | **16147** | **37192** |
-| 2020-04-06     | 16114     | 38742     |
-| 2020-04-07     | 15974     | 40178     |
-| 2020-04-08     | 15738     | 41499     |
-| 2020-04-09     | 15420     | 42710     |
-| 2020-04-10     | 15030     | 43815     |
-| 2020-04-11     | 14582     | 44820     |
-| 2020-04-12     | 14087     | 45732     |
-| 2020-04-13     | 13556     | 46558     |
-| 2020-04-14     | 13000     | 47305     |
-| 2020-04-15     | 12427     | 47981     |
-| 2020-04-16     | 11846     | 48591     |
+| 2020-04-07     | 16135     | 38768     |
+| 2020-04-08     | 15978     | 40170     |
+| 2020-04-09     | 15726     | 41458     |
+| 2020-04-10     | 15393     | 42634     |
+| 2020-04-11     | 14990     | 43706     |
+| 2020-04-12     | 14530     | 44678     |
+| 2020-04-13     | 14025     | 45559     |
+| 2020-04-14     | 13486     | 46355     |
+| 2020-04-15     | 12924     | 47074     |
+| 2020-04-16     | 12346     | 47723     |
+| 2020-04-17     | 11762     | 48309     |
+| 2020-04-18     | 11177     | 48836     |
 
 ### Optimized SIR parameters
 
 ```
-N = 59606.64959427761
-beta = 0.47522254854111645
-gamma = 0.09715312243395488
-delta = 0.5513802416948004
+N = 58729.288840434165
+beta = 0.46837234443117903
+gamma = 0.09605577292853257
+delta = 0.5627157405200456
 delay = 0
 ```
 
@@ -67,6 +67,11 @@ Main data source:
 * Spanish government: https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm
   * https://covid19.isciii.es/
   * https://covid19.isciii.es/resources/serie_historica_acumulados.csv
+
+* Github: https://github.com/datadista/datasets
+  * https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_covid19_casos_long.csv
+  * https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_covid19_altas_long.csv
+  * https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_covid19_fallecidos_long.csv
 
 ### Epidemiology model
 
